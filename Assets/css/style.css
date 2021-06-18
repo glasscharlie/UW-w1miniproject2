@@ -1,0 +1,27 @@
+main {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    text-align: center;
+}
+section {
+    background-color: black;
+    color: white;
+    width: 20%;
+    height:auto;
+    justify-content: space-evenly;
+    margin: 5%;
+
+}
+
+
+
+.all {
+    -moz-user-select: all;
+    -webkit-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+  }

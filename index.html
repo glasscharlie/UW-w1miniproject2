@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "Assets/css/style.css">
+    <title>CSS Snippets</title>
+    <header>
+        <h1>CSS Snippet Cheatsheet</h1>
+    </header>
+</head>
+<body>
+    <h2>Ever have trouble raclling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</h2>
+    
+    
+    <main>
+
+        <section>
+            <h1>Flexbox Row</h1>
+            <p>Use these three properties to create a Flexbox row layout</p>
+            <div> 
+                <pre>
+            <p class="all">
+.row {
+    display: flex;
+    flex-direction: Row
+    flex-wrap: wrap;
+}  
+</p>
+                </pre>
+
+            </div>
+        </section>
+
+        <section>
+            <h1>Flexbox Colum</h1>
+            <p>Use this to create a Flexbox Column layout</p>
+            <div>
+                <pre>
+                <p class = "all">
+.column {
+    display:flex;
+    flex-direction:colum;
+}
+                </pre>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h1>CSS Grid Layout</h1>
+            <p>Build a 12-column layout using CSS Grid</p>
+            <div>
+                <pre>
+                <p class= "all">
+.grid {
+    dispay:grid;
+    width:100%;
+    grid-template-columns;
+    repeat (12, 1fr)
+}
+                </p>
+            </pre>
+            </div>
+        </section>
+
+        <section>
+            <h1>Linear Gradients</h1>
+            <p class=>This will create a background linear gradient from top to bottom</p>
+            <div>
+                <pre>
+                <p class="all">
+                    
+                
+.linear-gradient-background {
+    background-image: linear-gradient (
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+    );
+}
+                    </p>
+                </pre>
+            </div>
+        </section>
+
+        <section>
+            <h1Box Transition Glow></h1>
+            <p>Use tranition and box shadows to glow on hover</p>
+            <div>
+                <pre>
+                <p class="all"> 
+.code .card-header {
+    border-radius:8px;
+    transition: all 0.5s ease-in-out;
+}
+.code-card:hover, .code-card:hover .card header {
+    box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1) 
+}                               
+                </p>
+            </pre>
+            </div>
+        </section>
+
+        <section>
+            <h1>Overlay Card With Title</h1>
+            <p>Use postition properties and negative margins to raise elements higher than their natural starting point</p>
+            <div>
+                <pre>
+                <p class = "all">
+.card header {
+    position: relative;
+    margin-top: -20px;
+}    
+  
+                </p>
+            </pre>
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>
